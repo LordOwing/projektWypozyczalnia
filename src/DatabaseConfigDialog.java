@@ -41,7 +41,6 @@ public class DatabaseConfigDialog extends JDialog {
         setLayout(new BorderLayout());
         setResizable(false);
 
-        // Panel wyboru typu (North)
         JPanel typeSelectPanel = new JPanel(new FlowLayout(FlowLayout.LEFT, 15, 15));
         typeSelectPanel.add(new JLabel("Typ bazy danych:"));
         cbDbType = new JComboBox<>(new String[]{
